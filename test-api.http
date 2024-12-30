@@ -1,0 +1,26 @@
+### Menghitung Gaji - Contoh Normal
+POST http://localhost:3000/api/hitung_gaji
+Content-Type: application/json
+
+{
+  "jam_kerja": 40,
+  "tarif_per_jam": 12500
+}
+
+### Menghitung Gaji - Dengan Lembur
+POST http://localhost:3000/api/hitung_gaji
+Content-Type: application/json
+
+{
+  "jam_kerja": 45,
+  "tarif_per_jam": 12500
+}
+
+### Menghitung Gaji - Input Tidak Valid
+POST http://localhost:3000/api/hitung_gaji
+Content-Type: application/json
+
+{
+  "jam_kerja": "delapan",
+  "tarif_per_jam": 12500
+}

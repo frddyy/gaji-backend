@@ -1,0 +1,15 @@
+{
+  "name": "gaji-backend",
+  "version": "1.0.0",
+  "description": "Program untuk menghitung dan menampilkan gaji karyawan dengan input jumlah jam kerja dan tarif per jam",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Mochamad Ferdy Fauzan",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.2",
+    "gaji-backend": "file:"
+  }
+}
