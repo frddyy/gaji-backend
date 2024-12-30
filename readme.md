@@ -24,8 +24,8 @@ Ikuti langkah berikut untuk menjalankan proyek:
 
 1. **Clone Repository**:
    ```bash
-   git clone <repository-url>
-   cd <project-folder>
+   git clone https://github.com/frddyy/gaji-backend.git
+   cd gaji-backend
    ```
 
 2. **Instal Dependensi**:
